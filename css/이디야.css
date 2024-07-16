@@ -1,0 +1,1279 @@
+@charset "utf-8";
+
+/* a {
+    font-family: "Nunito Sans", "sans-serif";
+    font-size: 13px;
+} */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.top-nav {
+    width: 100%;
+    height: 171px;
+}
+
+.top-nav .top-top {
+    width: 100%;
+    height: 50px;
+    background-color: #243c84;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-nav .top-top .top-blue {
+    width: 400px;
+}
+
+.top-blue ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-blue ul li {
+    width: 100px;
+    position: relative;
+}
+
+.top-blue ul li a {
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 50px;
+    font-weight: bold;
+}
+
+.top-blue ul li::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 9px;
+    background-color: #fff;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.top-blue ul li:last-child::after {
+    width: 0;
+}
+
+.top-right {
+    display: flex;
+    padding-right: 30px;
+}
+
+.top-nav {
+    position: relative;
+}
+
+.top-menu {
+    display: flex;
+    margin-right: 5px;
+}
+
+.top-menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-menu .top-img {}
+
+.top-nav .top-top .top-right form a {
+    background: url('../images/icon_search.gif')no-repeat center;
+    ;
+    position: absolute;
+    display: inline-block;
+    top: 12px;
+    right: 28px;
+    width: 38px;
+    height: 30px;
+}
+
+.top-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 50px;
+    font-weight: 600;
+}
+
+.top-menu ul li {
+    padding: 0 18px;
+    position: relative;
+}
+
+
+.top-menu ul li::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 9px;
+    background-color: #fff;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.top-menu ul li:last-child::after {
+    width: 0;
+}
+
+.top-menu ul li:last-child {}
+
+
+
+form {
+    margin-left: 20px;
+    line-height: 50px;
+}
+
+.top-nav .top-top .top-right .text {}
+
+
+
+.top-nav .top-top input {
+    width: 160px;
+    height: 30px;
+}
+
+
+.logo {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.menulogo1 {
+    width: 100%;
+    height: 121px;
+    position: fixed;
+    z-index: 30;
+    background: #fff;
+}
+
+header nav {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    /* jqeury쓰거나 해서... */
+    height: 400px;
+}
+
+header nav .mainlogo {
+    width: 100%;
+}
+
+header nav .mainlogo {
+    display: flex;
+    justify-content: center;
+    max-width: 1150px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.top-nav .menulogo1 nav .mainlogo li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.top-nav .menulogo1 nav .mainlogo li ul li a {
+    color: #848484;
+    font-size: 13px;
+}
+
+
+.top-nav .menulogo1 nav .mainlogo li .black6 {
+    position: relative;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black6::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #000;
+    margin: 3px auto;
+    transition: 0.3s;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black6:hover::after {
+    width: 30px;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black7 {
+    position: relative;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black7::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #000;
+    margin: 3px auto;
+    transition: 0.3s;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black7:hover::after {
+    width: 60px;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black8 {
+    position: relative;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black8::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #000;
+    margin: 3px auto;
+    transition: 0.3s;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black8:hover::after {
+    width: 93px;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black9 {
+    position: relative;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black9::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #000;
+    margin: 3px auto;
+    transition: 0.3s;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black9:hover::after {
+    width: 110px;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black10 {
+    position: relative;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black10::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #000;
+    margin: 3px auto;
+    transition: 0.3s;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black10:hover::after {
+    width: 85px;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black11 {
+    position: relative;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black11::after {
+    display: block;
+    content: "";
+    width: 0;
+    height: 4px;
+    background: #000;
+    margin: 3px auto;
+    transition: 0.3s;
+}
+
+.top-nav .menulogo1 nav .mainlogo li .black11:hover::after {
+    width: 70px;
+}
+
+.top-nav .menulogo1 nav .mainlogo li ul li a:hover {
+    color: black;
+}
+
+header nav .mainlogo>li {
+    padding: 0 40px;
+    position: relative;
+    height: 50px;
+    line-height: 30px;
+}
+
+header nav .mainlogo>li ul {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 300px;
+    z-index: 9;
+}
+
+header nav .mainlogo>li ul li {
+    text-align: left;
+    font-size: 13px;
+    color: #848484;
+    font-weight: 600;
+}
+
+
+
+
+
+.top-nav .top-top .top-img {
+    line-height: 60px;
+
+}
+
+.visual {
+    width: 100%;
+    height: 620px;
+}
+
+.visual .mySwiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.visual .mySwiper .swiper-slide {
+    width: 100%;
+    height: 100%;
+}
+
+.visual .mySwiper .swiper-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.visual .mySwiper .swiper-slide .vs-slide1 {
+    background: url('../images/배너1.jpg') no-repeat 70% 50%/cover;
+}
+
+.visual .mySwiper .swiper-slide .vs-slide2 {
+    background: url('../images/배너2.png')no-repeat 70% 50%/cover;
+}
+
+.visual .mySwiper .swiper-slide .vs-slide3 {
+    background: url('../images/배너3.jpg')no-repeat 70% 50%/cover;
+}
+
+.visual .mySwiper .swiper-slide .vs-slide4 {
+    background: url('../images/배너4.jpg')no-repeat 70% 50%/cover;
+}
+
+.visual .mySwiper .swiper-slide .vs-slide5 {
+    background: url('../images/배너5.jpg')no-repeat 70% 50%/cover;
+}
+
+.visual .mySwiper .swiper-slide .vs-slide6 {
+    background: url('../images/배너6.jpg')no-repeat 70% 50%/cover;
+}
+
+.visual .mySwiper .swiper-slide .vs-slide7 {
+    background: url('../images/배너7.jpg')no-repeat 70% 50%/cover;
+}
+
+.visual .mySwiper .swiper-button-next {
+    color: #fff;
+}
+
+.visual .mySwiper .swiper-button-prev {
+    color: #fff;
+}
+
+.visual .mySwiper .swiper-pagination .swiper-pagination-bullet {
+    opacity: 1;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 20px;
+}
+
+.visual .mySwiper .swiper-pagination .swiper-pagination-bullet-active {
+    width: 10px;
+    height: 10px;
+    background-color: #243c84;
+}
+
+.visual .mySwiper .swiper-pagination .swiper-pagination-bullet:hover {
+    background-color: #243c84;
+}
+
+
+.brown h2 {
+    padding-top: 80px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.brown {
+    width: 100%;
+    height: 685px;
+    background: url('../images/main_beanist_bg.gif') no-repeat 70% 65%/cover;
+    padding-top: 25px;
+}
+
+.visualone {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+}
+
+.visualone .jeongwoo {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.visualone .jeongwoo .swiper-pagination .swiper-pagination-bullet {
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+}
+
+.visualone .jeongwoo .swiper-pagination .swiper-pagination-bullet:hover {
+    background-color: #90470c;
+}
+
+.visualone .jeongwoo .swiper-pagination .swiper-pagination-bullet-active {
+    width: 10px;
+    height: 10px;
+    background-color: #90470c;
+}
+
+
+.visualone .jeongwoo .swiper-wrapper {
+    /* justify-content: center; */
+}
+
+.visualone .jeongwoo .swiper-slide {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.visualone .jeongwoo .swiper-slide a {
+    display: block;
+    width: 153px;
+    height: 280px;
+    margin: 0 60px;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidethree1 {
+    margin: 0 60px;
+    display: block;
+    width: 153px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+
+.visualone .jeongwoo .swiper-slide .vs-slidethree2 { 
+    margin: 0 60px;
+    display: block;
+    width: 153px;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone1 {
+    background: url('../images/이디야\ 상품1.png') no-repeat 70% 50%/cover;
+    position: relative;
+}
+
+
+.visualone .jeongwoo .swiper-slide .vs-slideone1 div {}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone1 div p {
+    font-family: "Noto Sans KR", sans-serif;
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 300px;
+    left: -50px;
+    color: #693a13;
+    font-weight: 900;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone1 div span {
+    position: absolute;
+    font-family: "Nunito Sans";
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    top: 330px;
+    left: -35px;
+    color: #cc8e5d;
+    font-weight: 400;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone2 div p {
+    font-family: "Noto Sans KR", sans-serif;
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 300px;
+    left: -38px;
+    color: #693a13;
+    font-weight: 1000;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone2 div span {
+    position: absolute;
+    font-family: "Nunito Sans";
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    top: 330px;
+    left: -25px;
+    color: #cc8e5d;
+    font-weight: 400;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone3 div p {
+    font-family: "Noto Sans KR", sans-serif;
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 300px;
+    left: -35px;
+    color: #693a13;
+    font-weight: 1000;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone3 div span {
+    position: absolute;
+    font-family: "Nunito Sans";
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    top: 330px;
+    left: -25px;
+    color: #cc8e5d;
+    font-weight: 400;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone4 div p {
+    font-family: "Noto Sans KR", sans-serif;
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 300px;
+    left: -35px;
+    color: #693a13;
+    font-weight: 1000;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone4 div span {
+    position: absolute;
+    font-family: "Nunito Sans";
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    top: 330px;
+    left: -40px;
+    color: #cc8e5d;
+    font-weight: 400;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidetwo1 div p {
+    font-family: "Noto Sans KR", sans-serif;
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 300px;
+    left: 0px;
+    color: #693a13;
+    font-weight: 1000;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidetwo1 div span {
+    position: absolute;
+    font-family: "Nunito Sans";
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    top: 330px;
+    left: -3px;
+    color: #cc8e5d;
+    font-weight: 400;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidetwo2 div p {
+    font-family: "Noto Sans KR", sans-serif;
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 300px;
+    left: -10px;
+    color: #693a13;
+    font-weight: 1000;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidetwo2 div span {
+    position: absolute;
+    font-family: "Nunito Sans";
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    top: 330px;
+    left: -9px;
+    color: #cc8e5d;
+    font-weight: 400;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidetwo3 div p {
+    font-family: "Noto Sans KR", sans-serif;
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 300px;
+    left: -10px;
+    color: #693a13;
+    font-weight: 1000;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidetwo3 div span {
+    position: absolute;
+    font-family: "Nunito Sans";
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    top: 330px;
+    left: -15px;
+    color: #cc8e5d;
+    font-weight: 400;
+}
+.visualone .jeongwoo .swiper-slide .vs-slidethree1 div p {
+    font-family: "Noto Sans KR", sans-serif;
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 270px;
+    left: -8px;
+    color: #693a13;
+    font-weight: 1000;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidethree1 div span {
+    position: absolute;
+    font-family: "Nunito Sans";
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    top: 300px;
+    left: -6px;
+    color: #cc8e5d;
+    font-weight: 400;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidethree2 div p {
+    font-family: "Noto Sans KR", sans-serif;
+    position: absolute;
+    font-size: 20px;
+    width: 250px;
+    top: 270px;
+    left: -8px;
+    color: #693a13;
+    font-weight: 1000;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidethree2 div span {
+    position: absolute;
+    font-family: "Nunito Sans";
+    display: inline-block;
+    width: 300px;
+    font-size: 15px;
+    top: 300px;
+    left: 0px;
+    color: #cc8e5d;
+    font-weight: 400;
+}
+
+
+
+.visualone .jeongwoo .swiper-slide .vs-slideone2 {
+    background: url('../images/이디야\ 상품2.png') no-repeat 70% 50%/cover;
+    position: relative;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone3 {
+    background: url('../images/이디야\ 상품3.png') no-repeat 70% 50%/cover;
+    position: relative;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slideone4 {
+    background: url('../images/이디야\ 상품4.png') no-repeat 70% 50%/cover;
+    position: relative;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidetwo1 {
+    background: url('../images/이디야\ 상품\ 두번째\ 1.png') no-repeat 70% 50%/cover;
+    position: relative;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidetwo2 {
+    background: url('../images/이디야\ 상품\ 두\ 번째\ 2.png') no-repeat 70% 50%/cover;
+    position: relative;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidetwo3 {
+    background: url('../images/이디야\ 상품\ 두\ 번째\ 3.png') no-repeat 70% 50%/cover;
+    position: relative;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidethree1 {
+    background: url('../images/이디야\ 상품\ 세\ 번째\ 1.png');
+    position: relative;
+}
+
+.visualone .jeongwoo .swiper-slide .vs-slidethree2 {
+    background: url('../images/이디야\ 상품\ 세\ 번째\ 2.png');
+    position: relative;
+}
+
+.red {
+    width: 100%;
+    height: 460px;
+    background: url('../images/dream_factory_bg.gif') no-repeat 70% 50%/cover;
+    padding-left: 400px;
+    padding-top: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
+.red h2 {
+    width: 1180px;
+    height: 150px;
+    font-size: 30px;
+    font-family: "Nunito Sans";
+    color: #fff;
+    font-weight: 900;
+}
+
+.red h2 em {
+    display: block;
+    width: 1036px;
+    height: 87px;
+    background: url('../images/dream_factory_txt.png');
+}
+
+.red p {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
+
+.red span {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+}
+
+.red .button {
+    padding-top: 40px;
+}
+
+.red .button a {
+    font-family: "Nunito Sans";
+    text-align: center;
+    line-height: 44px;
+    width: 190px;
+    height: 44px;
+    display: inline-block;
+    border: solid 1px #FFFFFF;
+    color: #FFF;
+    margin: 0 3px 0 4px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.red .button a:hover {
+    background-color: #fff;
+    color: #3c3c3c;
+}
+
+
+.red .factoryimg {
+    position: absolute;
+    top: 111px;
+    right: -10px;
+}
+
+.blue {
+    width: 100%;
+    height: 500px;
+    background: url('../images/block02_bg.jpg')no-repeat 70% 60%/cover;
+    padding-top: 100px;
+}
+
+.blue h2 {
+    font-family: "Nunito Sans";
+    text-align: center;
+    font-size: 42px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.blue .button2 a:hover {
+    background-color: #fff;
+    color: #3c3c3c;
+}
+
+.blue h2::after {
+    display: block;
+    position: relative;
+    content: "";
+    width: 100px;
+    height: 1px;
+    background: #FFF;
+    margin: auto;
+    margin-top: 51px;
+}
+
+.blue h3 {
+    padding-top: 40px;
+    font-family: "Nunito Sans";
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.blue .button2 {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.blue .button2 a {
+    font-family: "Nunito Sans";
+    font-weight: 900;
+    display: inline-block;
+    width: 188px;
+    height: 42px;
+    border: solid 1px #FFF;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    line-height: 42px;
+    font-size: 15px;
+}
+
+.blue h2 em {
+    font-style: normal;
+    font-weight: 900;
+}
+
+.green {
+    width: 100%;
+    height: 460px;
+    padding-left: 950px;
+    padding-top: 80px;
+    background: url('../images/company_bg.jpg')no-repeat left top/cover;
+}
+
+.green h2 {
+    font-family: "Nunito Sans";
+    font-size: 40px;
+    font-weight: 100;
+    color: #fff;
+}
+
+.green p {
+    padding-top: 55px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: #fff;
+}
+
+.green span {
+    font-family: "Nanum Gothic", sans-serif;
+    display: block;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.green .button3 {
+    padding-top: 40px;
+}
+
+.green .button3 a {
+    font-family: "Nunito Sans";
+    line-height: 42px;
+    font-size: 15px;
+    font-weight: 900;
+    text-align: center;
+    width: 188px;
+    height: 42px;
+    display: inline-block;
+    border: solid 1px #FFFFFF;
+    color: #FFF;
+    margin: 0 3px 0 4px;
+    text-decoration: none;
+}
+
+.green .button3 a:hover {
+    background-color: #fff;
+    color: #3c3c3c;
+}
+
+.brown h2 em {
+    font-style: normal;
+    color: #90470c;
+    font-weight: 900;
+    font-size: 42px;
+}
+
+.brown h2 {
+    text-align: center;
+    font-family: "Nunito Sans";
+    font-size: 42px;
+    font-weight: 100;
+}
+
+.brown h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    margin: 51px auto 0;
+    background: #3c3c3c;
+}
+
+.black {
+    width: 100%;
+    height: 530px;
+    position: relative;
+}
+
+.main2 {
+    position: absolute;
+    top: 110px;
+    left: 350px;
+}
+
+
+.black::before {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 620px;
+    background: #efefef;
+    margin-top: -240px;
+    left: 0;
+    z-index: -99;
+}
+
+footer {
+    width: 100%;
+    height: 258px;
+    background-color: #262626;
+}
+
+.left1 {
+    float: left;
+    width: 330px;
+    height: 330px;
+    background: url('../images/main_franchise_bg.jpg');
+    margin-right: 10px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.black .left1 h2 {
+    font-family: "Nunito Sans";
+    font-size: 22px;
+    font-weight: 600;
+    color: #FFF;
+
+}
+
+.black .left1 h2::after {
+    display: block;
+    content: "";
+    width: 42px;
+    height: 1px;
+    background: #FFF;
+    margin-top: 13px;
+}
+
+.black .left1 p {
+    margin-top: 25px;
+    font-family: "Nunito Sans";
+    font-size: 17px;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.main1 {
+    float: left;
+    width: 330px;
+    height: 330px;
+    background: url('../images/main_store_bg.jpg');
+    margin-right: 10px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
+
+.black .main2 form {
+    padding-top: 30px;
+    position: relative;
+}
+
+.black .main2 form img {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 33px;
+    left: 218px;
+}
+
+.black .main2 form input {
+    font-family: "Nunito Sans";
+    width: 260px;
+    max-width: 320px;
+    height: 44px;
+    border: solid 3px #FFFFFF;
+    background: #1c3269;
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.black .main2 form input::placeholder {
+    color: #fff;
+}
+
+.black .main2 .main1 h2 {
+    font-family: "Nunito Sans";
+    font-size: 22px;
+    color: #fff;
+    font-weight: 600;
+    padding-left: 25px;
+}
+
+.black .main2 .main1 h2::after {
+    display: block;
+    content: "";
+    width: 42px;
+    height: 1px;
+    background: #FFF;
+    margin-top: 13px;
+}
+
+.black .main2 .main1 p {
+    display: block;
+    font-family: "Nunito Sans";
+    font-size: 17px;
+    color: #FFF;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.black .main2 .main1 span {
+    display: inline-block;
+    margin-top: 25px;
+    font-family: "Nunito Sans";
+    font-size: 17px;
+    color: #FFF;
+    font-weight: 500;
+    padding-left: 25px;
+}
+
+.right1 {
+    float: left;
+    width: 500px;
+    height: 330px;
+}
+
+.right1 .NEWS {
+    padding-left: 15px;
+}
+
+.right1 .NEWS2 {
+    padding-left: 15px;
+}
+
+.right1 .NEWS2 ul li a {
+    font-family: "Nunito Sans";
+    margin-bottom: 7px;
+    font-size: 14px;
+    color: #7d7d7e;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+.right1 .NEWS2 li a:hover {
+    color: black;
+}
+
+.rihgt1 ul {
+    padding-left: 15px;
+}
+
+.black .right1 ul {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.black .right1 ul li {
+    font-family: "Nunito Sans";
+    margin-bottom: 7px;
+    font-size: 14px;
+    color: #7d7d7e;
+    font-weight: 550;
+}
+
+.black .right1 ul li span {
+    font-family: "Nunito Sans";
+    display: block;
+    float: right;
+    font-size: 13px;
+    color: #a4a4a5;
+    margin-top: 2px;
+}
+
+.black .right1 .link {
+    margin-top: 69px;
+    width: 500px;
+    height: 135px;
+    background-color: #cbc3b2;
+}
+
+.NEWS {
+    width: 500px;
+    height: 22px;
+}
+
+.right1 .NEWS h2 {
+    font-size: 22px;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    float: left;
+}
+
+.right1 .NEWS a {
+    padding-top: 4px;
+    float: right;
+}
+
+.link {
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.right1 .link h2 {
+    font-family: "Nunito Sans";
+    font-size: 21px;
+    font-weight: 600;
+    color: #FFF;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+}
+
+footer .footer1 {
+    width: 100%;
+    height: 61px;
+    line-height: 61px;
+    border-bottom: 1px solid #464646;
+}
+
+footer .footer1 ul li {
+    font-family: "Nunito Sans";
+    font-size: 13px;
+    font-weight: 500;
+    color: #818181;
+}
+
+footer ul {
+    display: block;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 3px 19px;
+}
+
+footer .footer2 {
+    margin-top: 40px;
+    position: relative;
+}
+
+footer .footer2 .footerone span {
+    display: inline-block;
+    background: url('../images/footer_line.gif') no-repeat right;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+footer .footer2 .footerone {
+    font-family: "Nunito Sans";
+    width: 90%;
+    max-width: 650px;
+    margin: auto;
+    margin-bottom: 14px;
+    font-size: 12px;
+    color: #6c6c6c;
+    padding-top: 20px;
+}
+
+footer .footer2 .copy {
+    font-family: "Nunito Sans";
+    font-size: 12px;
+    font-weight: 700;
+    color: #6c6c6c;
+}
+
+footer .footer2 .ccm {
+    position: absolute;
+    right: 350px;
+    top: -7px;
+}
+
+footer .korea select {
+    position: absolute;
+    top: 17px;
+    right: 350px;
+    font-family: "Nunito Sans";
+    width: 170px;
+    height: 30px;
+    padding-left: 20px;
+    color: #848484;
+    font-weight: 600;
+}
+
+footer .footer1 ul .color1 {
+    color: #fff;
+}
